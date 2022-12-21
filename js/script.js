@@ -5,7 +5,6 @@ const lowerLine  = document.querySelector(".burger__lower-line");
 const mobilMenu = document.querySelector(".mobile-menu")
 
 burger.addEventListener("click", () => {
-  console.log("click");
   upperLine.classList.toggle('burger__upper-line--active');
   lowerLine.classList.toggle('burger__lower-line--active');
   mobilMenu.classList.toggle('mobile-menu--active');

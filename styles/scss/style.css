@@ -303,7 +303,7 @@
 .order__circle:hover > svg path {
   fill: #3E9CDC;
 }
-.order__descr {
+.order__description {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -435,7 +435,7 @@
   right: 3px;
   top: 50%;
   transform: translateY(-50%);
-  background: url(../icons/down.svg);
+  background: url(../../icons/down.svg);
 }
 .select__option-list {
   display: none;
